@@ -21,7 +21,7 @@ Ekzekuto programin e kompiluar.
 
 Programi do të shfaqë një menu me opsionet e mëposhtme:
 
-1: Shto një pacient të ri
+1 : Shto një pacient të ri
 2: Kërko për një pacient me ID ose emër
 3: Shfaq të dhënat për të gjithë pacientët
 4: Fshi një pacient me ID
