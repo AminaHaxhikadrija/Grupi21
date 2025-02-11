@@ -1,0 +1,25 @@
+void fshiPacient(vector<Pacient>& pacientet) {
+    cout << "Shkruani ID e pacientit qe deshironi te fshini: ";
+    int ID;
+    bool fshire = false;
+    cin >> ID;  // Merr ID-në nga përdoruesi
+
+    for (auto it = pacientet.begin(); it != pacientet.end(); ++it) {
+        if (it->ID == ID) {  // Kontrollo nëse ID e pacientit përputhet
+            pacientet.erase(it);  // Fshi pacientin nga lista
+            cout << "Pacienti u fshi me sukses!\n";
+            fshire = true;
+            break;
+        }
+    }
+
+    if (!fshire) {
+        cout << "Pacienti nuk u gjet!\n";  // Mesazh nëse pacienti nuk u gjet për t'u fshirë
+    }
+}
+
+// Funksioni për fshirjen e të gjithë pacientëve
+void fshiTeGjithePacientet(vector<Pacient>& pacientet) {
+    pacientet.clear();  // Pastron të gjithë listën e pacientëve
+    cout << "Te gjitha te dhënat per pacientet jane fshire!\n";
+}
