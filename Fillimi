@@ -4,6 +4,20 @@
 using namespace std;
 
 int main() {   
+vector<Pacient> pacientet;
 
+
+int zgjedhja;
+do {
+    // Menyja e opsioneve për përdoruesin
+    cout << "Zgjedhni nje opsion:\n";
+    cout << "1. Shto pacient\n";
+    cout << "2. Kerko pacientin\n";
+    cout << "3. Shfaq te dhenat per secilin pacient\n";
+    cout << "4. Fshi pacientin\n";
+    cout << "5. Fshi te gjithe pacientet\n";
+    cout << "6. Dalje\n";
+    cout << "Zgjedhja juaj: ";
+    cin >> zgjedhja;
 return 0;
 }
