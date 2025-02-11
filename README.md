@@ -16,8 +16,8 @@ Ky projekt është një program i thjeshtë për menaxhimin e të dhënave të p
 
 Për të ekzekutuar këtë program:
 
-Kompilo programin duke përdorur një kompilues C++.
-Ekzekuto programin e kompiluar.
+- Kompilo programin duke përdorur një kompilues C++.
+- Ekzekuto programin e kompiluar.
 
 Programi do të shfaqë një menu me opsionet e mëposhtme:
 
