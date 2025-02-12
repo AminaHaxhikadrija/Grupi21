@@ -19,6 +19,6 @@ struct Pacient {
 int main{
 
 //shkruajta bje koment
-
+//komenti i dyte
 return 0;
 }
