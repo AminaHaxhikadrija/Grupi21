@@ -1,6 +1,21 @@
 #include <iostream>
 using namespace std;
-//hhhhjkjhgfdfghjklkhfdsdfghjklkjgfdxcvbnm,n
+struct Pacient {
+    int ID;
+    string emri;
+    string adresa;
+    string historia_medicale;
+
+    // Konstruktor për të inicializuar pacientin
+    Pacient(int id, string e, string a, string h) : ID(id), emri(e), adresa(a), historia_medicale(h) {}
+
+    // Funksion për shfaqjen e të dhënave të pacientit
+    void shfaqTeDhenat() const {
+        cout << "ID: " << ID << "\nEmri: " << emri
+            << "\nAdresa: " << adresa << "\nHistoria Mjeksore: "
+            << historia_medicale << endl;
+    }
+};
 int main{
 
 return 0;
