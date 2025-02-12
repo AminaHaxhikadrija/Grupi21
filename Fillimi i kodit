@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//hajt tash qitu koment 3
 struct Pacient {
     int ID;
     string emri;
