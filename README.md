@@ -14,7 +14,7 @@ Ky projekt është një program i thjeshtë për menaxhimin e të dhënave të p
 
 ## Përdorimi
 
-- 1.Klononi këtë repozitorin në kompjuterin tuaj.
+1 - Klononi këtë repozitorin në kompjuterin tuaj.
 - 2.Kompiloni programin duke përdorur një kompajler C++ (p.sh. g++ programi.cpp -o programi).
 - 3.Ekzekutoni programin (./programi).
   
